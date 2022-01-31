@@ -1,0 +1,13 @@
+<template>
+    
+    <lightning-dual-listbox name="DualBox"
+                            label="Select Permissions Sets"
+                            source-label="Permissions Available"
+                            selected-label="Permissions Selected"
+                            field-level-help="Select your Permissions Set"
+                            options={permissionsSetOptions}
+                            onchange={handleChange}
+                            disable-reordering>
+    </lightning-dual-listbox>
+    
+</template>
